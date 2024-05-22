@@ -1,17 +1,17 @@
 {
-  "name": "@aybee5/vue-scroll-shadow",
+  "name": "vue-scroll-shadow-v3",
   "version": "0.1.1",
   "type": "module",
   "main": "./dist/vue-scroll-shadow.umd.cjs",
   "module": "./dist/vue-scroll-shadow.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/vue-scroll-shadow.js",
       "require": "./dist/vue-scroll-shadow.umd.cjs"
     },
     "./style.css": "./dist/style.css"
   },
-  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
