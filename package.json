@@ -1,0 +1,33 @@
+{
+  "name": "vue-scroll-shadow",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/vue-scroll-shadow.umd.js",
+  "module": "./dist/vue-scroll-shadow.es.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-scroll-shadow.es.js",
+      "require": "./dist/vue-scroll-shadow.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build && vue-tsc --declaration --emitDeclarationOnly --declarationDir ./dist",
+    "preview": "vite preview",
+    "generate:types": ""
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
