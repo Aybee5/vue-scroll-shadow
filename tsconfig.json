@@ -12,6 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "declaration": true,
+    "outDir": "dist",
     "emitDeclarationOnly": true,
     "jsx": "preserve",
 
