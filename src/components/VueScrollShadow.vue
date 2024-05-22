@@ -53,6 +53,7 @@ const handleScroll = (event: Event) => {
 <style scoped>
 .wrapper {
   position: relative;
+  width: fit-content;
 }
 
 .shadow {
